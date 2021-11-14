@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    /* background-image: linear-gradient(to right, teal, gray, teal); */
+    height: 550px;
+    color: #ffffff;
+    background-image: url("./img/banner.jpg");
+}
+
+.width-80 {
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+
+/* header left */
+
+.header-left img {
+    padding-top: 10px;
+}
+
+
+/* .header-left {
+    display: flex;
+}
+
+.header-left span {
+    margin: auto;
+    font-size: 10px;
+    padding-left: 8px;
+}
+
+.header-left h3 {
+    font-family: 'Ceviche One', cursive;
+    font-size: 30px;
+    margin: 10px;
+} */
+
+
+/* header right */
+
+.header_right ul li {
+    list-style: none;
+    padding: 0 10px;
+}
+
+.header_right ul li:last-child {
+    padding: 0;
+}
+
+.header_right ul {
+    display: flex;
+    font-family: 'Roboto Mono', monospace;
+    padding: 5px 0;
+}
+
+.menu-head {
+    display: flex;
+}
+
+
+/* content head */
+
+.content-head {
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    padding-top: 10%;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.content-head h2 {
+    font-size: 60px;
+}
+
+.content-head h2 span {
+    font-weight: 800;
+}
+
+.content-head h3 {
+    font-size: 40px;
+}
+
+.content-head h6 {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.content-head h6::before {
+    position: relative;
+    top: -8px;
+    content: "___";
+    color: #0feb92;
+    padding-right: 10px;
+    font-weight: 300;
+}
+
+.content-head h6::after {
+    position: relative;
+    top: -8px;
+    content: "___";
+    color: #0feb92;
+    padding-left: 10px;
+    font-weight: 300;
+}
+
+.content-head h2,
+.content-head h3,
+.content-head h6 {
+    margin-bottom: 1px;
+    margin-top: 10px;
+}
+
+.content-head h3 span {
+    color: #0feb92;
+}
